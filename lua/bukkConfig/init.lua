@@ -1,0 +1,5 @@
+vim.cmd("set background=dark")
+require("bukkConfig.lazy")
+require("bukkConfig.remap")
+require("bukkConfig.set")
+require("lsp-configuration")
