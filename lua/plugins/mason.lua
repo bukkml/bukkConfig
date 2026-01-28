@@ -21,7 +21,7 @@ return {
             ensure_installed = {
                 "lua_ls", -- Lua lsp server
                 "clangd", -- C/C++ lsp server
-                "markdown", -- Md lsp server
+                "marksman", -- Md lsp server
             },
         },
         dependencies = {
@@ -35,11 +35,9 @@ return {
         opts = {
             ensure_installed = {
                 "clang-format",
-                "clangd",
                 "cpplint",
                 "cspell",
-                "lua-language-server",
-                "markdownlint",
+                "tree-sitter-cli",
                 "selene",
                 "stylua"
             },
