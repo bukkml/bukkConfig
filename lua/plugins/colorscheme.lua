@@ -1,11 +1,11 @@
 -- PURPLE COLORSCHEME
  return {
+   --dir = "/home/max/development/lillilac.nvim",
    "bukkml/lillilac.nvim",
    config = function()
      vim.cmd.colorscheme("lillilac")
    end,
  }
-
 
 --[[
 return {
